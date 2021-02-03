@@ -74,7 +74,7 @@
 .arrow_container {
     position: absolute;
     left: 31.5%;
-    bottom: 21.5%;
+    bottom: 20%;
     animation-name: arrow;
     animation-iteration-count: initial;
     animation-timing-function: linear;
