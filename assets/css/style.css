@@ -47,7 +47,7 @@
     position: relative;
     margin: 0px;
     height: 100vh;
-    background-image: url(../image/grass.png), url(../image/moon.gif), url(../image/forest.png), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
+    background-image: url(../image/grass.png), url(../image/moon-unscreen.gif)), url(../image/forest.png), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
     background-repeat: repeat-x, no-repeat, no-repeat, no-repeat;
     background-size: 200px 200px, 200px 200px, 600px 600px, 2000px 1024px;
     overflow: hidden;   
