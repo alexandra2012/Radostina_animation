@@ -42,14 +42,14 @@
       color: white;
   }
   .container {
-    background-size: 600px 600px, 200px 200px;
-    background-position: bottom, left bottom, right top ;
+    background-size: 600px 600px, 200px 200px, 550px 550px, 2000px 1024px;
+    background-position: bottom, top right, left bottom, right top;
     position: relative;
     margin: 0px;
     height: 100vh;
-    background-image: url(../image/grass.png), url(../image/forest.png), url(../image/moon.gif), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
+    background-image: url(../image/grass.png), url(../image/moon.gif), url(../image/forest.png), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
     background-repeat: repeat-x, no-repeat, no-repeat, no-repeat;
-    background-size: 200px 200px, 600px 600px, 150px 150px, 2000px 1024px;
+    background-size: 200px 200px, 200px 200px, 600px 600px, 2000px 1024px;
     overflow: hidden;   
 }
 .hunter_container {
@@ -73,8 +73,8 @@
 }    
 .arrow_container {
     position: absolute;
-    left: 31.5%;
-    bottom: 20%;
+    left: 30%;
+    bottom: 22%;
     animation-name: arrow;
     animation-iteration-count: initial;
     animation-timing-function: linear;
@@ -112,6 +112,16 @@
     animation-iteration-count: initial;
     animation-duration: 11s;
     animation-delay: 0s;
+}
+.logo {
+    background-image: url(../image/xxx.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    opacity: 0.1;
+    right: 20%;
+
 }
 
 @keyframes hunter_action {
