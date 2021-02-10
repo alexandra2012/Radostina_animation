@@ -42,14 +42,14 @@
       color: white;
   }
   .container {
-    background-size: 600px 600px, 200px 200px, 550px 550px, 2000px 1024px;
-    background-position: bottom, top right, left bottom, right top;
+    background-size: 600px 600px, 200px 200px, 550px 550px, 2300px 1500px;
+    background-position: bottom, top right, left bottom, top right;
     position: relative;
     margin: 0px;
     height: 100vh;
-    background-image: url(../image/grass.png), url(../image/moon-unscreen.gif)), url(../image/forest.png), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
+    background-image: url(../image/grass.png), url(../image/moon-unscreen.gif), url(../image/forest.png), url(../image/72475993_2316868698624075_3293157180546482176_n.gif);
     background-repeat: repeat-x, no-repeat, no-repeat, no-repeat;
-    background-size: 200px 200px, 200px 200px, 600px 600px, 2000px 1024px;
+    background-size: 200px 200px, 200px 200px, 600px 600px, 2000px 1300px;
     overflow: hidden;   
 }
 .hunter_container {
